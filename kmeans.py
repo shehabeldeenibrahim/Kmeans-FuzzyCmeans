@@ -62,4 +62,5 @@ def k_means(data, k, r):
 # Import dataset
 data = pd.read_csv('cluster_dataset.txt', sep="  ", header=None)
 
+# Run kmeans and plot
 k_means(data, k=5, r=5)
